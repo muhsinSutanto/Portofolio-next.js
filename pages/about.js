@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import Error from './_error'
 import fetch from 'isomorphic-unfetch'
+//npm i isompophic-unfetch to get external fetch
+
 import React, { Component } from 'react';
 
 class About extends Component {

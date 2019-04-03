@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Router from 'next/router'
 import NProgress from 'nprogress'
+//https://cdnjs.com/ to get css from npprogress
 
 Router.onRouteChangeStart = ur => {
     console.log(ur)
@@ -23,6 +24,7 @@ const Layout = ({children, title}) => {
                 <Link href='/'><a>home</a></Link>
                 <Link href='/about'><a>about</a></Link>
                 <Link href='/hireme'><a>hire me</a></Link>
+                <Link href='/blog'><a>blog</a></Link>
             </header>
 
             <h1>{title}</h1>
